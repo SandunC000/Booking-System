@@ -35,7 +35,7 @@ const SignUp = () => {
     const { cpassword, ...finalUser } = newUser
 
     axios
-      .post("http://localhost:3000/register", finalUser, {
+      .post("https://dispencary-booking-app-f391617db2e3.herokuapp.com/register", finalUser, {
         headers: {
           "Content-Type": "multipart/form-data",
         },
