@@ -17,7 +17,7 @@ const LogIn = () => {
   const handleSubmit = (e) => {
     e.preventDefault()
     axios
-      .post("https://dispencary-booking-app-f391617db2e3.herokuapp.com/login", user)
+      .post("https://booking-sys-server-10ffb1575735.herokuapp.com/login", user)
       .then((result) => {
         navigate("/home", { state: { user: result.data.data } })
       })

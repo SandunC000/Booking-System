@@ -15,7 +15,7 @@ const upload = multer({ storage: storage })
 
 const { MongoClient, ServerApiVersion } = require("mongodb")
 const uri =
-  "mongodb+srv://sanduncooray000:LybY9w4mRKdCUZEY@cluster0.b2h8fw4.mongodb.net/?retryWrites=true&w=majority"
+  "mongodb+srv://sanduncooray000:ECcldY7Vw41KPWM7@cluster0.b2h8fw4.mongodb.net/?retryWrites=true&w=majority"
 
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {
